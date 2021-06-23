@@ -6,7 +6,7 @@
 %%% Created : 11 Nov 2012 by vlad <lib.aca55a@gmail.com>
 
 -module(cpe_trace).
-
+-compile([{parse_transform, lager_transform}]).
 -export([report_event/4,
 	 report_event/5]).
 
